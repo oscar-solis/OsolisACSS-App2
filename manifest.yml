@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: OsolisACSS-App2
+  host: OsolisACSS-App2
+  disk_quota: 1024M
+  services:
+  - osolis_Cloudant_2543570262990068
